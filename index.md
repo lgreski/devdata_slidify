@@ -10,6 +10,10 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 logo        : AgereBlack.png
 knit        : slidify::knit2slides
+output: 
+  html_document: 
+    fig_height: 2
+    fig_width: 2
 --- 
 
 ## Overview
@@ -50,6 +54,7 @@ pairs(~ mpg + wt + hp + disp,data=mtcars,
 - Converting the selections into the proper format for the `pairs()` function
 - Rendering the instructions, and turning them off when two or more variables are selected
 - Rendering the scatterplot matrix
+- Adding summary statistics for each variable in the scatterplot matrix, so it's clear that "calculations" are made on the server
 
 --- 
 
