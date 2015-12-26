@@ -17,7 +17,7 @@ knit        : slidify::knit2slides
 - Used to illustrate a variety of concepts across multiple classes
 - It's a good candidate for a starter shiny application
 <br><br>
-<b>Application:</b> mtcars Scatterplot Matrix Generator
+<b>Application:</b> mtcars [Scatterplot Matrix Generator](https://lgreski.shinyapps.io/mtcars_Scatterplot_Matrix_Generator)
 
 --- .class #id
 
