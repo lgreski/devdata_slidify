@@ -7,14 +7,16 @@ framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
+mode        : standalone # {standalone, selfcontained, draft}
 logo        : AgereBlack.png
 knit        : slidify::knit2slides
 output: 
   html_document: 
     fig_height: 2
     fig_width: 2
+    
 --- 
+<style>.title-slide{background-color: white; </style>
 
 ## Overview
 
